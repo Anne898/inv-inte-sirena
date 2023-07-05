@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
   video.addEventListener('timeupdate', function() {
     var currentTime = video.currentTime;
 
-    if (currentTime >= 28.5 && currentTime <= 35) {
+    if (currentTime >= 26 && currentTime <= 32) {
       botonDireccion.style.opacity = '1'; // Mostrar el botón
       botonDireccion.style.pointerEvents = 'auto'; // Habilitar eventos de clic
     } else {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
       botonDireccion.style.pointerEvents = 'none'; // Deshabilitar eventos de clic
     }
 
-    if (currentTime >= 36 && currentTime <= 39.5) {
+    if (currentTime >= 35) {
       botonAsistencia.style.opacity = '1'; // Mostrar el botón
       botonAsistencia.style.pointerEvents = 'auto'; // Habilitar eventos de clic
     } else {
